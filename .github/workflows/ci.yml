@@ -34,4 +34,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ghcr.io/maucoronel822-debug/password_generator:latest
+          tags: ghcr.io/maucoronel822/password_generator:latest
