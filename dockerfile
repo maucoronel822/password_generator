@@ -6,4 +6,5 @@ COPY . .
 
 RUN pip install -r requirements-dev.txt
 
-CMD ["python", "main.py", ]
+ENTRYPOINT ["python", "main.py", ]
+CMD [ "15" ]
